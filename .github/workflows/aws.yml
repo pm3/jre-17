@@ -32,8 +32,8 @@ on:
 
 env:
   AWS_REGION: eu-west-3
-  ECR_REPOSITORY: 989907396178.dkr.ecr.eu-west-3.amazonaws.com
-  CONTAINER_NAME: jre-17
+  ECR_REGISTRY: 989907396178.dkr.ecr.eu-west-3.amazonaws.com
+  ECR_REPOSITORY: jre-17
   
 permissions:
   contents: read
